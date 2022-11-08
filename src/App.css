@@ -1,0 +1,22 @@
+.navbar{
+  position: relative;
+  display: flex; 
+  justify-content: space-evenly;
+  top: 1rem;
+  right: 2rem;
+  width: 100vw;
+  height: auto;
+  background-color: antiquewhite;
+}
+.navbar button{
+  position: relative;
+  padding: 4rem;
+  border: 1px solid black;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.navbar .disabled{
+  cursor: default;
+}
